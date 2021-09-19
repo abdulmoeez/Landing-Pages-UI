@@ -1,0 +1,108 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+body{
+  font-family: 'Lato', sans-serif;
+  
+  color:#808080 ;
+}
+.navbar img{
+  height: 32px;
+ 
+}
+.navbar{
+   background-color: rgba(0 , 0 , 0 , 0.6)!important;
+   font-weight: 700;
+}
+.landing{
+  
+  background-image: url(img/computers.png);}
+ul li:hover{
+  color: green;
+}
+.welcome{
+  width: 100%;
+  min-width: 100%;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  color: white;
+  font-size: 20px;
+
+}
+.welcome h1{
+    font-size: 3rem;
+    font-weight: 900;
+    text-shadow: .4rem , .4rem , 1.8rem black;
+    letter-spacing: 5px;
+    padding-bottom: 5px;
+}
+.welcome h3{
+    padding-top: 5px;
+    font-weight: 900;
+    text-shadow: .4rem , .4rem , 1.8rem black;
+    letter-spacing: 5px;
+    padding-bottom: 5px;
+}
+.fa-play-circle,.fa-sliders-h,.fa-align-center{
+  color: #0fba77;
+  font-size: 4rem;
+
+}
+#features{
+  color: black;
+}
+hr{
+  width: 10%;
+  color: green;
+
+}
+.fa-code,.fa-bold,.fa-css3-alt{
+font-size: 4rem;
+color: #0fba77;
+}
+
+.fixed-background
+{ 
+  position: absolute;
+  top: 50%;
+  color: white;
+  background-image: url(img/computers.png);
+}
+.clients img{
+  border-radius: 100%;
+  width:150px;
+  height:150px;
+
+}
+.clients hr{
+  width: 80%!important;
+}
+footer{
+  background-color: black;
+  color: white;
+}
+footer img{
+
+  height: 2rem;
+
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

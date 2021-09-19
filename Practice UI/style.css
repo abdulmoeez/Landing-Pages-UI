@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');		
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style:none;
+	text-decoration-style:none;
+	text-decoration:none;
+}
+body{
+	font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15.5px;
+ }
+ .container{
+ 	width: 80%;
+ 	margin: 0 auto;
+ }
+ .nav{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 110px;
+
+ }
+ .nav-top{
+ 	width: 100%;
+ 	background: #f54e24;
+ 	display: flex;
+ 	align-items: center;
+ 	height: 50px;
+ }
+ .nav-top-buttons{
+ 	float: right;
+
+ }
+ .nav-top button{
+ 	background: #fff;
+ 	color: #777777;
+ 	border: none;
+ 	padding: 10px 20px;
+ }
+ .nav-top-links{
+ 	display: flex;
+ 	align-items: center;
+ 	color: white;
+ 	float: left;
+ }
+ .nav-top-links h4{
+ 	margin-left: 20px;
+ }
+ .first-child{
+ 	margin-left: 0px!important;
+ }
+
+
+
+ .nav-main{
+ 	width: 100%;
+ 	background: #fff;
+ 	height: 60px;
+ 	display: flex;
+ 	align-items: center;
+
+
+
+ }
+
+.nav-main-links{
+	float: right;
+	display: flex;
+	
+}
+.nav-main-links li{
+	margin-left: 50px;
+	color: #333;
+}
+.nav-main-links a{
+color: #777777;
+
+
+}
+.nav-main-links a:hover{
+	border-bottom: 2px solid #f54e24;
+}
+
+.page-content{
+	margin-top: 110px;
+}
+ .navbar-brand{
+ 	float: left;
+ 	align-items: center;
+ }
+
+
+ .sec-main{
+ 	background-image: url(web-image.jpg);
+ 	height: 600px;
+ 	background-size: cover;
+ 	position: relative;
+ 	z-index: -1;
+
+ }
+ .sec-main-content{
+ 	position: absolute;
+ 	top: 30%;
+ 	letter-spacing: 2px;
+ 	width: 60%;
+ 	color: #fff;
+
+ }
+ .sec-main-content h1{
+ 	font-weight: 500;
+ 	margin-bottom: 50px;
+ 	line-height: 2.5px;
+ }
+ .sec-main-content p{
+ 	font-weight: 100;
+ 	margin-bottom: 30px;
+ }
+ .sec-main-content a{
+ 	background-color:  #f54e24;
+ 	padding: 10px 20px;
+ 	color: white;
+ 	font-weight: bold;
+ 	
+ 	text-transform: uppercase;
+ }
+
+ .lead{
+ 	color: #777777;
+ 	font-weight: 100;
+ 	font-size: 15px;
+ }
+ .sec-items{
+ display: flex;
+ justify-content: center;
+ padding: 50px 0;
+ }
+ .sec-items-item{
+ 	width: 50%;
+ }
+
+
+.sec-items-item h1{
+	color: #222;
+	margin-bottom: 20px;
+	width: 450px;
+	background: lightblue;
+
+} 
+.sec-items-item p{
+	margin-bottom: 40px;
+}
+
+
+.sec-works-img{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.sec-works{
+	background: #f4f4f4;
+}
+.sec-work-content{
+	padding: 50px 0;
+}
+.sec-work-content h1{
+color: #222;
+	margin-bottom: 20px;
+	font-size: 2rem;
+	width: 750px;
+	background: lightblue;
+
+}
+.sec-work-content p{
+	margin-left: 100px;
+	width: 80%;
+}
+.img-work img{
+	height: 200px;
+	margin: 0 0 40px 40px;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #222;
+}
+.footer-top{
+	padding: 30px 0;
+	font-size: 500;
+}
+.footer-top li{
+	margin-left: 20px;
+
+}
+.footer-top a{
+	color: grey;
+}
+.footer-top ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.footer-social{
+	padding: 30px 0;
+	margin: 30px 0;
+}
+.footer-social a{
+	border: 1px #f4f4f4 solid;
+	border-radius: 70%;
+	padding: 10px 20px;
+	
+	font-size: 2rem;
+	color: black;
+	margin-left: 20px;
+	background: #fff;
+}
+.footer-social ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-info{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-info h3{
+	color: #fff;
+	margin-left: 40px;
+	padding: 20px 0;
+	font-size: 26px;
+}
+.footer-info-first{
+	color: #f54e24!important;
+}
+.footer-text{
+	margin: 0 auto 20px auto;
+
+
+}
+.footer-text h4 , .footer-text p{
+	color: #fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.footer-bottom{
+	padding: 20px 0;
+}
+.footer-bottom p{
+	color: grey;
+}
+hr{
+	color: grey;
+	border-top: 1px solid grey;
+	width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+	.sec-items{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+}
